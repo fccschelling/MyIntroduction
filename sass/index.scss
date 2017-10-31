@@ -1,0 +1,224 @@
+@import "compass/reset";
+@import "compass/css3";
+body{
+	font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    display: flex;
+    justify-content: center;
+}
+.container{
+	margin-top: 2.66666667em;
+	main{
+		header{
+			padding: 1em 0;
+			display: flex;
+			.title{
+				h1{
+					// color:rgb(102, 121, 223);
+					color: #4f84e8;
+    				// text-shadow: 1px 1px rgba(197, 223, 248,0.8), 2px 2px rgba(197, 223, 248,0.8), 3px 3px rgba(197, 223, 248,0.8), 4px 4px rgba(197, 223, 248,0.8), 5px 5px rgba(197, 223, 248,0.8), 6px 6px rgba(197, 223, 248,0.8);
+					font-weight: bold;
+				}
+				p{
+					font-size: 1.1em;
+					color:#833f3f;
+				}
+			}
+		}
+	}
+	.content{
+		margin-top: 1.33333333em;
+		display: flex;
+		h2{
+			margin: 1em 0;
+			font-size: 1.33333333em;
+    		padding-bottom: .33333333em;
+			border-bottom: 1px solid #000;
+			font-weight: bold;
+		}
+		.display-list{
+				li{
+					div.tent{
+						border-left: 1px solid #000;
+						margin-left: 6.75em;
+						padding: 0  0.5em;
+					}
+					.li-title{
+						.time{
+							display: inline-block;
+							width: 5.8em;
+						}
+						.point{
+							display: inline-block;
+							width: 0.6em;
+							height: 0.6em;
+							border-radius: 0.6em;
+							background-color: #000;
+							margin: 0 0.6em;
+						}
+						.li-name{
+							color: #3a4fbd;
+						}
+					}
+				}
+			}
+		.education{
+			ul{
+				.edu-blank{
+					height: .75em;
+				}
+			}
+		}
+		.work{
+			.work-tent{
+				.work-title{
+					// line-height: 1.2em;
+					.symbol{
+						display: inline-block;
+						height: 1em;
+						width: 1em;
+						border-radius: 1em;
+						border:1px solid #000; 
+						position: relative;
+						top:0.1em;
+						margin-right: 0.5em;
+						.circle{
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							margin-top: -.25em;
+							margin-left: -.25em;
+							display: inline-block;
+							height: 0.4em;
+							width: 0.4em;
+							border-radius:0.5em;
+							border:1px solid #000; 
+						}
+					}
+				}
+				.company{
+					color: #705757;
+				}
+			}
+		}
+		.project{
+			.project-div{
+				border-left: 1px solid #000;
+				margin-left: 0.2em;
+				padding:0 0.5em; 
+				.key-label{
+					background: rgb(102, 121, 223);
+				    color: white;
+				    padding: .13333333em .33333333em;
+				    margin: .33333333em  .3em;
+				    display: inline-block;
+				    font-size: .875em;
+				    &.top{
+				    	 font-size: .6em;
+				    	background: #a2a8b2;
+				    	padding:0 .3em;
+				    	line-height: 2em;
+				    }
+				}
+			}
+			.blank{
+				height: 0.8em;
+			}
+			.point{
+				display: inline-block;
+						width: 0.6em;
+						height: 0.6em;
+						border-radius: 0.6em;
+						background-color: #000;
+						margin-right: 0.3em;
+						// margin: 0 0.1em;
+			}
+			.li-name{
+				display: inline-block;
+
+			}
+		}
+		.skill{
+			dl {
+			    margin: 0;
+			}
+			dd{
+				margin-left: 0;
+			}
+			strong{
+				color: rgb(102, 121, 223);
+				margin: 0 .3em;
+			}
+			dl dt {
+				margin: .33333333em 0;
+			    font-weight: bold;
+			    font-size: 1.04em;
+			}
+		}
+		.skill dd:before,
+		.project dl dd li:before {
+		    content: "";
+		    background: url('../img/check.png') no-repeat;
+		    background-size: .8em .8em;
+		    /* 12/15 */
+		    display: inline-block;
+		    width: .8em;
+		    height: .8em;
+		    padding-right: .33333333em;
+		    /* 5/15 */
+		}
+		
+	}
+}
+footer {
+    text-align: center;
+    font-size: .8em;
+    margin: 3em 0 2em;
+}
+@media screen and (min-width: 900px) {
+    .container {
+        width: 900px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .title {
+        text-align: left;
+    }
+    .content > article {
+        width: 27em;
+    }
+    .content > article:first-child {
+        padding-right: 3em;
+    }
+    .content > article:last-child {
+        padding-left: 3em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 95%;
+    }
+    .content > article {
+        width: 100%;
+    }
+    header,
+    .content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .title {
+        text-align: center;
+    }
+    header {
+        align-items: center;
+    }
+    .content > article {
+        padding: 0;
+    }
+    address {
+        font-size: .94em;
+    }
+}
