@@ -157,11 +157,27 @@ body {
   margin-left: 0.2em;
   padding: 0 0.5em;
 }
-/* line 103, ../sass/index.scss */
+/* line 102, ../sass/index.scss */
+.container .content .project .project-div .key-label {
+  background: #6679df;
+  color: white;
+  padding: .13333333em .33333333em;
+  margin: .33333333em  .3em;
+  display: inline-block;
+  font-size: .875em;
+}
+/* line 109, ../sass/index.scss */
+.container .content .project .project-div .key-label.top {
+  font-size: .6em;
+  background: #a2a8b2;
+  padding: 0 .3em;
+  line-height: 2em;
+}
+/* line 117, ../sass/index.scss */
 .container .content .project .blank {
   height: 0.8em;
 }
-/* line 106, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 .container .content .project .point {
   display: inline-block;
   width: 0.6em;
@@ -170,26 +186,30 @@ body {
   background-color: #000;
   margin-right: 0.3em;
 }
-/* line 115, ../sass/index.scss */
+/* line 129, ../sass/index.scss */
 .container .content .project .li-name {
   display: inline-block;
 }
-/* line 121, ../sass/index.scss */
+/* line 135, ../sass/index.scss */
 .container .content .skill dl {
   margin: 0;
-  font-weight: bold;
 }
-/* line 125, ../sass/index.scss */
+/* line 138, ../sass/index.scss */
 .container .content .skill dd {
   margin-left: 0;
 }
-/* line 128, ../sass/index.scss */
+/* line 142, ../sass/index.scss */
+.container .content .skill strong {
+  color: #6679df;
+  margin: 0 .3em;
+}
+/* line 146, ../sass/index.scss */
 .container .content .skill dl dt {
   margin: .33333333em 0;
   font-weight: bold;
   font-size: 1.04em;
 }
-/* line 134, ../sass/index.scss */
+/* line 152, ../sass/index.scss */
 .container .content .skill dd:before,
 .container .content .project dl dd li:before {
   content: "";
@@ -203,7 +223,7 @@ body {
   /* 5/15 */
 }
 
-/* line 149, ../sass/index.scss */
+/* line 167, ../sass/index.scss */
 footer {
   text-align: center;
   font-size: .8em;
@@ -211,70 +231,70 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-  /* line 155, ../sass/index.scss */
+  /* line 173, ../sass/index.scss */
   .container {
     width: 900px;
   }
 
-  /* line 158, ../sass/index.scss */
+  /* line 176, ../sass/index.scss */
   header {
     justify-content: space-between;
   }
 
-  /* line 161, ../sass/index.scss */
+  /* line 179, ../sass/index.scss */
   .title {
     text-align: left;
   }
 
-  /* line 164, ../sass/index.scss */
+  /* line 182, ../sass/index.scss */
   .content > article {
     width: 27em;
   }
 
-  /* line 167, ../sass/index.scss */
+  /* line 185, ../sass/index.scss */
   .content > article:first-child {
     padding-right: 3em;
   }
 
-  /* line 170, ../sass/index.scss */
+  /* line 188, ../sass/index.scss */
   .content > article:last-child {
     padding-left: 3em;
   }
 }
 @media screen and (max-width: 900px) {
-  /* line 176, ../sass/index.scss */
+  /* line 194, ../sass/index.scss */
   .container {
     width: 95%;
   }
 
-  /* line 179, ../sass/index.scss */
+  /* line 197, ../sass/index.scss */
   .content > article {
     width: 100%;
   }
 
-  /* line 182, ../sass/index.scss */
+  /* line 200, ../sass/index.scss */
   header,
   .content {
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  /* line 187, ../sass/index.scss */
+  /* line 205, ../sass/index.scss */
   .title {
     text-align: center;
   }
 
-  /* line 190, ../sass/index.scss */
+  /* line 208, ../sass/index.scss */
   header {
     align-items: center;
   }
 
-  /* line 193, ../sass/index.scss */
+  /* line 211, ../sass/index.scss */
   .content > article {
     padding: 0;
   }
 
-  /* line 196, ../sass/index.scss */
+  /* line 214, ../sass/index.scss */
   address {
     font-size: .94em;
   }
