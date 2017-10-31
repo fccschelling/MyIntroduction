@@ -144,7 +144,7 @@ body {
   top: 50%;
   left: 50%;
   margin-top: -.25em;
-  margin-left: -.2em;
+  margin-left: -.25em;
   display: inline-block;
   height: 0.4em;
   width: 0.4em;
@@ -198,18 +198,18 @@ body {
 .container .content .skill dd {
   margin-left: 0;
 }
-/* line 142, ../sass/index.scss */
+/* line 141, ../sass/index.scss */
 .container .content .skill strong {
   color: #6679df;
   margin: 0 .3em;
 }
-/* line 146, ../sass/index.scss */
+/* line 145, ../sass/index.scss */
 .container .content .skill dl dt {
   margin: .33333333em 0;
   font-weight: bold;
   font-size: 1.04em;
 }
-/* line 152, ../sass/index.scss */
+/* line 151, ../sass/index.scss */
 .container .content .skill dd:before,
 .container .content .project dl dd li:before {
   content: "";
@@ -223,7 +223,7 @@ body {
   /* 5/15 */
 }
 
-/* line 167, ../sass/index.scss */
+/* line 166, ../sass/index.scss */
 footer {
   text-align: center;
   font-size: .8em;
@@ -231,70 +231,70 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-  /* line 173, ../sass/index.scss */
+  /* line 172, ../sass/index.scss */
   .container {
     width: 900px;
   }
 
-  /* line 176, ../sass/index.scss */
+  /* line 175, ../sass/index.scss */
   header {
     justify-content: space-between;
   }
 
-  /* line 179, ../sass/index.scss */
+  /* line 178, ../sass/index.scss */
   .title {
     text-align: left;
   }
 
-  /* line 182, ../sass/index.scss */
+  /* line 181, ../sass/index.scss */
   .content > article {
     width: 27em;
   }
 
-  /* line 185, ../sass/index.scss */
+  /* line 184, ../sass/index.scss */
   .content > article:first-child {
     padding-right: 3em;
   }
 
-  /* line 188, ../sass/index.scss */
+  /* line 187, ../sass/index.scss */
   .content > article:last-child {
     padding-left: 3em;
   }
 }
 @media screen and (max-width: 900px) {
-  /* line 194, ../sass/index.scss */
+  /* line 193, ../sass/index.scss */
   .container {
     width: 95%;
   }
 
-  /* line 197, ../sass/index.scss */
+  /* line 196, ../sass/index.scss */
   .content > article {
     width: 100%;
   }
 
-  /* line 200, ../sass/index.scss */
+  /* line 199, ../sass/index.scss */
   header,
   .content {
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  /* line 205, ../sass/index.scss */
+  /* line 204, ../sass/index.scss */
   .title {
     text-align: center;
   }
 
-  /* line 208, ../sass/index.scss */
+  /* line 207, ../sass/index.scss */
   header {
     align-items: center;
   }
 
-  /* line 211, ../sass/index.scss */
+  /* line 210, ../sass/index.scss */
   .content > article {
     padding: 0;
   }
 
-  /* line 214, ../sass/index.scss */
+  /* line 213, ../sass/index.scss */
   address {
     font-size: .94em;
   }
