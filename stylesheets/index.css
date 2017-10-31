@@ -83,20 +83,21 @@ body {
 }
 /* line 17, ../sass/index.scss */
 .container main header .title h1 {
-  color: #6679df;
+  color: #4f84e8;
+  text-shadow: 1px 1px rgba(197, 223, 248, 0.8), 2px 2px rgba(197, 223, 248, 0.8), 3px 3px rgba(197, 223, 248, 0.8), 4px 4px rgba(197, 223, 248, 0.8), 5px 5px rgba(197, 223, 248, 0.8), 6px 6px rgba(197, 223, 248, 0.8);
   font-weight: bold;
 }
-/* line 21, ../sass/index.scss */
+/* line 23, ../sass/index.scss */
 .container main header .title p {
   font-size: 1.1em;
   color: #833f3f;
 }
-/* line 28, ../sass/index.scss */
+/* line 30, ../sass/index.scss */
 .container .content {
   margin-top: 1.33333333em;
   display: flex;
 }
-/* line 31, ../sass/index.scss */
+/* line 33, ../sass/index.scss */
 .container .content h2 {
   margin: 1em 0;
   font-size: 1.33333333em;
@@ -104,18 +105,18 @@ body {
   border-bottom: 1px solid #000;
   font-weight: bold;
 }
-/* line 40, ../sass/index.scss */
+/* line 42, ../sass/index.scss */
 .container .content .display-list li div.tent {
   border-left: 1px solid #000;
   margin-left: 6.75em;
   padding: 0  0.5em;
 }
-/* line 46, ../sass/index.scss */
+/* line 48, ../sass/index.scss */
 .container .content .display-list li .li-title .time {
   display: inline-block;
   width: 5.8em;
 }
-/* line 50, ../sass/index.scss */
+/* line 52, ../sass/index.scss */
 .container .content .display-list li .li-title .point {
   display: inline-block;
   width: 0.6em;
@@ -124,15 +125,15 @@ body {
   background-color: #000;
   margin: 0 0.6em;
 }
-/* line 58, ../sass/index.scss */
+/* line 60, ../sass/index.scss */
 .container .content .display-list li .li-title .li-name {
   color: #3a4fbd;
 }
-/* line 66, ../sass/index.scss */
+/* line 68, ../sass/index.scss */
 .container .content .education ul .edu-blank {
   height: .75em;
 }
-/* line 75, ../sass/index.scss */
+/* line 77, ../sass/index.scss */
 .container .content .work .work-tent .work-title .symbol {
   display: inline-block;
   height: 1em;
@@ -143,7 +144,7 @@ body {
   top: 0.1em;
   margin-right: 0.5em;
 }
-/* line 84, ../sass/index.scss */
+/* line 86, ../sass/index.scss */
 .container .content .work .work-tent .work-title .symbol .circle {
   position: absolute;
   top: 50%;
@@ -156,17 +157,17 @@ body {
   border-radius: 0.5em;
   border: 1px solid #000;
 }
-/* line 98, ../sass/index.scss */
+/* line 100, ../sass/index.scss */
 .container .content .work .work-tent .company {
   color: #705757;
 }
-/* line 104, ../sass/index.scss */
+/* line 106, ../sass/index.scss */
 .container .content .project .project-div {
   border-left: 1px solid #000;
   margin-left: 0.2em;
   padding: 0 0.5em;
 }
-/* line 108, ../sass/index.scss */
+/* line 110, ../sass/index.scss */
 .container .content .project .project-div .key-label {
   background: #6679df;
   color: white;
@@ -175,18 +176,18 @@ body {
   display: inline-block;
   font-size: .875em;
 }
-/* line 115, ../sass/index.scss */
+/* line 117, ../sass/index.scss */
 .container .content .project .project-div .key-label.top {
   font-size: .6em;
   background: #a2a8b2;
   padding: 0 .3em;
   line-height: 2em;
 }
-/* line 123, ../sass/index.scss */
+/* line 125, ../sass/index.scss */
 .container .content .project .blank {
   height: 0.8em;
 }
-/* line 126, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 .container .content .project .point {
   display: inline-block;
   width: 0.6em;
@@ -195,30 +196,30 @@ body {
   background-color: #000;
   margin-right: 0.3em;
 }
-/* line 135, ../sass/index.scss */
+/* line 137, ../sass/index.scss */
 .container .content .project .li-name {
   display: inline-block;
 }
-/* line 141, ../sass/index.scss */
+/* line 143, ../sass/index.scss */
 .container .content .skill dl {
   margin: 0;
 }
-/* line 144, ../sass/index.scss */
+/* line 146, ../sass/index.scss */
 .container .content .skill dd {
   margin-left: 0;
 }
-/* line 147, ../sass/index.scss */
+/* line 149, ../sass/index.scss */
 .container .content .skill strong {
   color: #6679df;
   margin: 0 .3em;
 }
-/* line 151, ../sass/index.scss */
+/* line 153, ../sass/index.scss */
 .container .content .skill dl dt {
   margin: .33333333em 0;
   font-weight: bold;
   font-size: 1.04em;
 }
-/* line 157, ../sass/index.scss */
+/* line 159, ../sass/index.scss */
 .container .content .skill dd:before,
 .container .content .project dl dd li:before {
   content: "";
@@ -232,7 +233,7 @@ body {
   /* 5/15 */
 }
 
-/* line 172, ../sass/index.scss */
+/* line 174, ../sass/index.scss */
 footer {
   text-align: center;
   font-size: .8em;
@@ -240,70 +241,70 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-  /* line 178, ../sass/index.scss */
+  /* line 180, ../sass/index.scss */
   .container {
     width: 900px;
   }
 
-  /* line 181, ../sass/index.scss */
+  /* line 183, ../sass/index.scss */
   header {
     justify-content: space-between;
   }
 
-  /* line 184, ../sass/index.scss */
+  /* line 186, ../sass/index.scss */
   .title {
     text-align: left;
   }
 
-  /* line 187, ../sass/index.scss */
+  /* line 189, ../sass/index.scss */
   .content > article {
     width: 27em;
   }
 
-  /* line 190, ../sass/index.scss */
+  /* line 192, ../sass/index.scss */
   .content > article:first-child {
     padding-right: 3em;
   }
 
-  /* line 193, ../sass/index.scss */
+  /* line 195, ../sass/index.scss */
   .content > article:last-child {
     padding-left: 3em;
   }
 }
 @media screen and (max-width: 900px) {
-  /* line 199, ../sass/index.scss */
+  /* line 201, ../sass/index.scss */
   .container {
     width: 95%;
   }
 
-  /* line 202, ../sass/index.scss */
+  /* line 204, ../sass/index.scss */
   .content > article {
     width: 100%;
   }
 
-  /* line 205, ../sass/index.scss */
+  /* line 207, ../sass/index.scss */
   header,
   .content {
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  /* line 210, ../sass/index.scss */
+  /* line 212, ../sass/index.scss */
   .title {
     text-align: center;
   }
 
-  /* line 213, ../sass/index.scss */
+  /* line 215, ../sass/index.scss */
   header {
     align-items: center;
   }
 
-  /* line 216, ../sass/index.scss */
+  /* line 218, ../sass/index.scss */
   .content > article {
     padding: 0;
   }
 
-  /* line 219, ../sass/index.scss */
+  /* line 221, ../sass/index.scss */
   address {
     font-size: .94em;
   }
