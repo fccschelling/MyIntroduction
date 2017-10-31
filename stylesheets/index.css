@@ -83,8 +83,7 @@ body {
 }
 /* line 17, ../sass/index.scss */
 .container main header .title h1 {
-  color: #4f84e8;
-  text-shadow: 1px 1px rgba(197, 223, 248, 0.8), 2px 2px rgba(197, 223, 248, 0.8), 3px 3px rgba(197, 223, 248, 0.8), 4px 4px rgba(197, 223, 248, 0.8), 5px 5px rgba(197, 223, 248, 0.8), 6px 6px rgba(197, 223, 248, 0.8);
+  color: #6679df;
   font-weight: bold;
 }
 /* line 23, ../sass/index.scss */
